@@ -101,9 +101,7 @@ i intent to generate a *Mithil* based SPA (with routing), something, that visual
 
 <img src="postcss-style-book.png" alt="PostCSS Style Book"/>
 
-## Thanks
-
-inspired from 
+## Other tools doing kind of the same work ..
 
 * [styledown](https://github.com/styledown/styledown/tree/master)
 * [postcss-styleguide](https://github.com/mdings/postcss-styleguide)  
