@@ -103,4 +103,8 @@ i intent to generate a *Mithil* based SPA (with routing), something, that visual
 
 ## Thanks
 
-inspired from [postcss-styleguide](https://github.com/mdings/postcss-styleguide) and [postcss-style-guide](https://github.com/morishitter/postcss-style-guide)
+inspired from 
+
+* [styledown](https://github.com/styledown/styledown/tree/master)
+* [postcss-styleguide](https://github.com/mdings/postcss-styleguide)  
+* [postcss-style-guide](https://github.com/morishitter/postcss-style-guide)
