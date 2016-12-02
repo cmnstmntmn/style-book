@@ -94,24 +94,12 @@ Default component to display a list of items.
 }
 ```
 
-i intent to generate a *Mithil* based SPA (with routing), something, that visually, will look like this:
 
-```html
-<dl class="List">
-  <dt class="List-Header u-paddingAs">{@listTitle || 'My List'}</dt>
-  
-  @iterable
-    <dd class="List-Item">
-      <span>{{@name || 'John Doe'}}</span>
-      <strong>{{@score || '13'}}</strong>
-    </dd>
-  @iterable
-</dl>
-```
+## Output 
+*this should be usefull for both BE and FE programers.*
+i intent to generate a *Mithil* based SPA (with routing), something, that visually, will look like this.
 
-the output will be generated as a SPA, in a format close to this. that should be usefull for both BE and FE programers. 
-
-
+<img src="postcss-style-book.png" alt="PostCSS Style Book"/>
 
 ## Thanks
 
