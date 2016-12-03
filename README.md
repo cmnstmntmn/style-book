@@ -127,7 +127,7 @@ output should contain:
 
 this is a good example
 
-<img src="https://dribbble.com/shots/2341689-UI-Styleguide/attachments/446967" alt="Dribble example"/>
+<img src="https://d13yacurqjgara.cloudfront.net/users/45787/screenshots/2341689/attachments/446967/dribbb_styleguide.jpg" alt="Dribble example"/>
 
 ## Other tools doing kind of the same work ..
 * [a list with styleguide generators](https://github.com/davidhund/styleguide-generators)
