@@ -21,6 +21,7 @@ $color : red
 
 in order to not depend on any of postcss, less, etc, having in mind  #1 (that a compiled css file with comments will be used as the input) there should be a way to keep traking the vars ... maybe **source maps** is a viable solution; this way will have `style.css.map` that stores comments and variable names and `styles.css` that holds values. all we have to do is to ping-pong between these two.
 
+3. convert css markdown to mithril components via [mithril-template-converter](https://github.com/ArthurClemens/mithril-template-converter) 
 
 ## Example
 having a the following css component named **list.css**
@@ -125,7 +126,24 @@ output should contain:
 1. typography / fonts used
 2. icons (font icons or svgs)
 
-this is a good direction to follow.
+**the output (files) MUST be easly portable between teams** so a capsulated structure would be ideal
+
+```
+style-book/
+ vendor/ (mithril spa magic)
+ project/
+   data/
+     list.json
+     modal.json
+     comments.json
+   components
+     list.js
+     modal.js
+     comments.js
+ index.html
+```
+
+a direction to follow.
 
 <img src="https://d13yacurqjgara.cloudfront.net/users/18331/screenshots/1355884/attachments/193121/drbl-styleguide.png" alt="Dribble example"/>
 
