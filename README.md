@@ -1,8 +1,26 @@
-# postcss-style-book
-Generate style guide based on your css components as a SPA
+# style-book
+Generate style guide based on your css components as a Mithril SPA
 
 ## Ideea
 **postcss-style-book** aims to be a tool that generates visual style guides for your CSS components, out of your CSS files.
+
+## Research
+
+1. there will be an interface that will parse the css file (with intact comments)
+2. main issue, of how to parse colors / vars
+
+eg.
+
+```css
+/* less variable */
+$color : red
+
+/* post css variable handled by postcss-color-function */
+--color: color(red shade(50%))
+```
+
+in order to not depend on any of postcss, less, etc, having in mind  #1 (that a compiled css file with comments will be used as the input) there should be a way to keep traking the vars ... maybe **source maps** is a viable solution.
+
 
 ## Example
 having a the following css component named **list.css**
@@ -101,8 +119,16 @@ i intent to generate a *Mithil* based SPA (with routing), something, that visual
 
 <img src="postcss-style-book.png" alt="PostCSS Style Book"/>
 
-## Other tools doing kind of the same work ..
+output should contain:
 
+0. colors
+1. typography / fonts used
+2. icons (font icons or svgs)
+
+
+
+## Other tools doing kind of the same work ..
+* [a list with styleguide generators](https://github.com/davidhund/styleguide-generators)
 * [styledown](https://github.com/styledown/styledown/tree/master)
 * [postcss-styleguide](https://github.com/mdings/postcss-styleguide)  
 * [postcss-style-guide](https://github.com/morishitter/postcss-style-guide)
