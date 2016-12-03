@@ -6,7 +6,7 @@ Generate style guide based on your css components as a Mithril SPA
 
 ## Research
 
-1. there will be an interface that will parse the css file (with intact comments)
+1. there will be an interface that will parse the css file and it's associated source map file
 2. main issue, of how to parse colors / vars
 
 eg.
@@ -19,7 +19,7 @@ $color : red
 --color: color(red shade(50%))
 ```
 
-in order to not depend on any of postcss, less, etc, having in mind  #1 (that a compiled css file with comments will be used as the input) there should be a way to keep traking the vars ... maybe **source maps** is a viable solution.
+in order to not depend on any of postcss, less, etc, having in mind  #1 (that a compiled css file with comments will be used as the input) there should be a way to keep traking the vars ... maybe **source maps** is a viable solution; this way will have `style.css.map` that stores comments and variable names and `styles.css` that holds values. all we have to do is to ping-pong between these two.
 
 
 ## Example
