@@ -125,9 +125,9 @@ output should contain:
 1. typography / fonts used
 2. icons (font icons or svgs)
 
-this is a good direction to follow, even it's a way to sopisticated.
+this is a good direction to follow.
 
-<img src="https://d13yacurqjgara.cloudfront.net/users/45787/screenshots/2341689/attachments/446967/dribbb_styleguide.jpg" alt="Dribble example"/>
+<img src="https://d13yacurqjgara.cloudfront.net/users/18331/screenshots/1355884/attachments/193121/drbl-styleguide.png" alt="Dribble example"/>
 
 ## Other tools doing kind of the same work ..
 * [a list with styleguide generators](https://github.com/davidhund/styleguide-generators)
