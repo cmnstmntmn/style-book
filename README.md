@@ -9,17 +9,17 @@ Generate style guide based on your css components as a Mithril SPA
 1. there will be an interface that will parse the css file and it's associated source map file
 2. main issue, of how to parse colors / vars
 
-eg.
+	eg.
 
-```css
-/* less variable */
-$color : red
+	```css
+	/* less variable */
+	$color : red
 
-/* post css variable handled by postcss-color-function */
---color: color(red shade(50%))
-```
+	/* post css variable handled by postcss-color-function */
+	--color: color(red shade(50%))
+	```
 
-in order to not depend on any of postcss, less, etc, having in mind  #1 (that a compiled css file with comments will be used as the input) there should be a way to keep traking the vars ... maybe **source maps** is a viable solution; this way will have `style.css.map` that stores comments and variable names and `styles.css` that holds values. all we have to do is to ping-pong between these two.
+	in order to not depend on any of postcss, less, etc, having in mind  #1 (that a compiled css file with comments will be used as the input) there should be a way to keep traking the vars ... maybe **source maps** is a viable solution; this way will have `style.css.map` that stores comments and variable names and `styles.css` that holds values. all we have to do is to ping-pong between these two.
 
 3. convert css markdown to mithril components via [mithril-template-converter](https://github.com/ArthurClemens/mithril-template-converter) 
 
