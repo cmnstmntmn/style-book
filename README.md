@@ -125,7 +125,9 @@ output should contain:
 1. typography / fonts used
 2. icons (font icons or svgs)
 
+this is a good example
 
+<img src="https://dribbble.com/shots/2341689-UI-Styleguide/attachments/446967" alt="Dribble example"/>
 
 ## Other tools doing kind of the same work ..
 * [a list with styleguide generators](https://github.com/davidhund/styleguide-generators)
