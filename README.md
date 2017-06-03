@@ -147,6 +147,10 @@ a direction to follow.
 
 <img src="https://d13yacurqjgara.cloudfront.net/users/18331/screenshots/1355884/attachments/193121/drbl-styleguide.png" alt="Dribble example"/>
 
+## Output
+
+we should generate a cssstat report http://cssstats.com/
+
 ## Other tools doing kind of the same work ..
 * [a list with styleguide generators](https://github.com/davidhund/styleguide-generators)
 * [styledown](https://github.com/styledown/styledown/tree/master)
